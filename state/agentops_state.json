@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "agents": {
+    "agent-trading-1051": {
+      "agent_id": "agent-trading-1051",
+      "name": "Test Trading Agent",
+      "type": "trading",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:05:04.377749Z",
+      "last_seen": "2026-10-28T13:05:04.377769Z"
+    },
+    "agent-trading-9955": {
+      "agent_id": "agent-trading-9955",
+      "name": "Test Trading Agent",
+      "type": "trading",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:06:08.365540Z",
+      "last_seen": "2026-10-28T13:06:08.365558Z"
+    },
+    "agent-trading-1234": {
+      "agent_id": "agent-trading-1234",
+      "name": "Auto-registered agent-trading-1234",
+      "type": "custom",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:06:08.369967Z",
+      "last_seen": "2026-10-28T13:47:48.256625Z"
+    },
+    "agent-trading-2580": {
+      "agent_id": "agent-trading-2580",
+      "name": "Test Trading Agent",
+      "type": "trading",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:38:21.184410Z",
+      "last_seen": "2026-10-28T13:38:21.184428Z"
+    },
+    "agent-trading-1369": {
+      "agent_id": "agent-trading-1369",
+      "name": "Test Trading Agent",
+      "type": "trading",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:47:33.463687Z",
+      "last_seen": "2026-10-28T13:47:33.463706Z"
+    },
+    "agent-trading-6650": {
+      "agent_id": "agent-trading-6650",
+      "name": "Test Trading Agent",
+      "type": "trading",
+      "config": {},
+      "metadata": {},
+      "status": "healthy",
+      "created_at": "2026-10-28T13:47:48.259942Z",
+      "last_seen": "2026-10-28T13:47:48.259951Z"
+    }
+  },
+  "metrics": [
+    {
+      "agent_id": "agent-trading-1234",
+      "metrics": {
+        "latency_p95_ms": 150,
+        "error_rate": 0.001
+      },
+      "timestamp": "2026-10-28T13:47:48.256613Z"
+    },
+    {
+      "agent_id": "agent-trading-1234",
+      "metrics": {
+        "latency_p95_ms": 150,
+        "error_rate": 0.001
+      },
+      "timestamp": "2026-10-28T13:47:33.469048Z"
+    },
+    {
+      "agent_id": "agent-trading-1234",
+      "metrics": {
+        "latency_p95_ms": 150,
+        "error_rate": 0.001
+      },
+      "timestamp": "2026-10-28T13:38:21.188885Z"
+    },
+    {
+      "agent_id": "agent-trading-1234",
+      "metrics": {
+        "latency_p95_ms": 150,
+        "error_rate": 0.001
+      },
+      "timestamp": "2026-10-28T13:06:08.369979Z"
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "alert-145908",
+      "agent_id": null,
+      "metric": "latency_p95_ms",
+      "condition": ">",
+      "threshold": 500,
+      "severity": "warning",
+      "description": "",
+      "cooldown_minutes": 15,
+      "status": "armed",
+      "created_at": "2026-10-28T13:47:48.244138Z",
+      "last_fired": null
+    },
+    {
+      "alert_id": "alert-777615",
+      "agent_id": null,
+      "metric": "latency_p95_ms",
+      "condition": ">",
+      "threshold": 500,
+      "severity": "warning",
+      "description": "",
+      "cooldown_minutes": 15,
+      "status": "armed",
+      "created_at": "2026-10-28T13:47:33.476351Z",
+      "last_fired": null
+    },
+    {
+      "alert_id": "alert-824284",
+      "agent_id": null,
+      "metric": "latency_p95_ms",
+      "condition": ">",
+      "threshold": 500,
+      "severity": "warning",
+      "description": "",
+      "cooldown_minutes": 15,
+      "status": "armed",
+      "created_at": "2026-10-28T13:38:21.195152Z",
+      "last_fired": null
+    },
+    {
+      "alert_id": "alert-726799",
+      "agent_id": null,
+      "metric": "latency_p95_ms",
+      "condition": ">",
+      "threshold": 500,
+      "severity": "warning",
+      "description": "",
+      "cooldown_minutes": 15,
+      "status": "armed",
+      "created_at": "2026-10-28T13:06:08.376411Z",
+      "last_fired": null
+    },
+    {
+      "alert_id": "alert-122709",
+      "agent_id": null,
+      "metric": "latency_p95_ms",
+      "condition": ">",
+      "threshold": 500,
+      "severity": "warning",
+      "description": "",
+      "cooldown_minutes": 15,
+      "status": "armed",
+      "created_at": "2026-10-28T13:05:04.391034Z",
+      "last_fired": null
+    }
+  ],
+  "logs": [],
+  "profiles": []
+}
